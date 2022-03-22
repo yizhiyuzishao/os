@@ -1,0 +1,15 @@
+﻿  os-test.cpp
+c:\users\dell\source\repos\os\os-test\os-test.cpp(17): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“WORD *”
+c:\users\dell\source\repos\os\os-test\os-test.cpp(17): warning C4313: “printf”: 格式字符串中的“%u”与“WORD *”类型的参数 1 冲突
+c:\users\dell\source\repos\os\os-test\os-test.cpp(29): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“Space”
+c:\users\dell\source\repos\os\os-test\os-test.cpp(29): warning C4313: “printf”: 格式字符串中的“%u”与“Space”类型的参数 2 冲突
+c:\users\dell\source\repos\os\os-test\os-test.cpp(43): warning C4477: “printf”: 格式字符串“%12u”需要类型“unsigned int”的参数，但可变参数 3 拥有了类型“WORD *”
+c:\users\dell\source\repos\os\os-test\os-test.cpp(43): warning C4313: “printf”: 格式字符串中的“%u”与“WORD *”类型的参数 3 冲突
+c:\users\dell\source\repos\os\os-test\os-test.cpp(63): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+  c:\users\dell\source\repos\os\os-test\os-test.cpp(63): note: 请考虑在格式字符串中使用“%zd”
+os-test.obj : error LNK2019: 无法解析的外部符号 "void __cdecl initMemory(struct WORD * &)" (?initMemory@@YAXAEAPEAUWORD@@@Z)，该符号在函数 main 中被引用
+os-test.obj : error LNK2019: 无法解析的外部符号 "struct WORD * __cdecl AllocBoundTag(struct WORD * &,int)" (?AllocBoundTag@@YAPEAUWORD@@AEAPEAU1@H@Z)，该符号在函数 "struct WORD * __cdecl MissSegInt(struct WORD * &,struct WORD * &,int,int,int)" (?MissSegInt@@YAPEAUWORD@@AEAPEAU1@0HHH@Z) 中被引用
+os-test.obj : error LNK2019: 无法解析的外部符号 "void __cdecl Reclaim(struct WORD * &,struct WORD *)" (?Reclaim@@YAXAEAPEAUWORD@@PEAU1@@Z)，该符号在函数 "bool __cdecl FIFO(struct WORD * &,struct WORD * &)" (?FIFO@@YA_NAEAPEAUWORD@@0@Z) 中被引用
+os-test.obj : error LNK2019: 无法解析的外部符号 "void __cdecl initProcess(void)" (?initProcess@@YAXXZ)，该符号在函数 main 中被引用
+os-test.obj : error LNK2019: 无法解析的外部符号 "int __cdecl CreateProcess(char * const,int,int * const)" (?CreateProcess@@YAHQEADHQEAH@Z)，该符号在函数 main 中被引用
+C:\Users\dell\source\repos\os\x64\Debug\os-test.exe : fatal error LNK1120: 5 个无法解析的外部命令

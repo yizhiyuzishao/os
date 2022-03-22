@@ -1,0 +1,7 @@
+﻿  os-test.cpp
+e:\系统\c盘数据备份\desktop\folder\course\course design\operating system\code\os\os-test\os-test.cpp(17): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“WORD *”
+e:\系统\c盘数据备份\desktop\folder\course\course design\operating system\code\os\os-test\os-test.cpp(29): warning C4477: “printf”: 格式字符串“%u”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“Space”
+e:\系统\c盘数据备份\desktop\folder\course\course design\operating system\code\os\os-test\os-test.cpp(43): warning C4477: “printf”: 格式字符串“%12u”需要类型“unsigned int”的参数，但可变参数 3 拥有了类型“WORD *”
+e:\系统\c盘数据备份\desktop\folder\course\course design\operating system\code\os\os-test\os-test.cpp(114): warning C4477: “printf”: 格式字符串“%12u”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“WORD *”
+e:\系统\c盘数据备份\desktop\folder\course\course design\operating system\code\os\os-test\os-test.cpp(123): warning C4101: “i”: 未引用的局部变量
+  os-test.vcxproj -> E:\系统\c盘数据备份\Desktop\folder\Course\Course Design\Operating System\Code\os\Debug\os-test.exe
